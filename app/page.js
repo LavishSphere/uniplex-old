@@ -1,23 +1,35 @@
-import Image from 'next/image'
-import styles from './page.module.css'
+import React from 'react';
+import styles from './page.module.css';
 
 export default function Home() {
   return (
     <main className={styles.main}>
       <div className={styles.description}>
-        <p>
-          Welcome to Uniplex Incorporated!
-        </p>
+        <p>Welcome to Uniplex Incorporated!</p>
       </div>
 
-
+      {/* Ad iframe */}
+      <div className={styles.adContainer}>
+        <iframe
+          data-aa='2230219'
+          src='//acceptable.a-ads.com/2230219'
+          style={{
+            border: '0px',
+            padding: '0',
+            width: '100%',
+            height: '100%',
+            overflow: 'hidden',
+            backgroundColor: 'transparent',
+          }}
+        ></iframe>
+      </div>
 
       <div className={styles.grid}>
         <a
-          href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
+          href='https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app'
           className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
+          target='_blank'
+          rel='noopener noreferrer'
         >
           <h2>
             Wiki <span>-&gt;</span>
@@ -26,10 +38,10 @@ export default function Home() {
         </a>
 
         <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
+          href='https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app'
           className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
+          target='_blank'
+          rel='noopener noreferrer'
         >
           <h2>
             Policy <span>-&gt;</span>
@@ -38,10 +50,10 @@ export default function Home() {
         </a>
 
         <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
+          href='https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app'
           className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
+          target='_blank'
+          rel='noopener noreferrer'
         >
           <h2>
             Terms <span>-&gt;</span>
@@ -50,19 +62,17 @@ export default function Home() {
         </a>
 
         <a
-          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
+          href='https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app'
           className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
+          target='_blank'
+          rel='noopener noreferrer'
         >
           <h2>
             Mailing List <span>-&gt;</span>
           </h2>
-          <p>
-            Join our maling list for the latest updates to our site.
-          </p>
+          <p>Join our mailing list for the latest updates to our site.</p>
         </a>
       </div>
     </main>
-  )
+  );
 }
