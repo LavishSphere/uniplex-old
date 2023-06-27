@@ -5,7 +5,7 @@ const TermsPage = () => {
     <div>
       <h1>Terms and Conditions of Service for Uniplex Incorporated</h1>
       <p>Last updated: June 26, 2023</p>
-      <p>Welcome to Uniplex Incorporated ("Uniplex," "we," "us," or "our"). These Terms and Conditions (the "Terms") govern your access to and use of the website https://uniplex.xyz (the "Website") and all related services provided by Uniplex, including but not limited to our Minecraft server services (collectively, the "Services"). Please read these Terms carefully before using our Website or accessing our Services.</p>
+      <p>Welcome to Uniplex Incorporated (&quotUniplex,&quot &quotwe,&quot &quotus,&quot or &quotour&quot). These Terms and Conditions (the &quotTerms&quot) govern your access to and use of the website https://uniplex.xyz (the &quotWebsite&quot) and all related services provided by Uniplex, including but not limited to our Minecraft server services (collectively, the &quotServices&quot). Please read these Terms carefully before using our Website or accessing our Services.</p>
 
       <h2>1. Acceptance of Terms</h2>
       <p>By accessing the Website or using our Services, you agree to be bound by these Terms. If you do not agree with any part of these Terms, you must not use our Website or Services.</p>
