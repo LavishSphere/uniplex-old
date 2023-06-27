@@ -22,7 +22,7 @@ export default function Home() {
           <h2>
             Wiki <span>-&gt;</span>
           </h2>
-          <p>Find in-depth information about Next.js features and API.</p>
+          <p>Find in-depth information about Uniplex features and guides.</p>
         </a>
 
         <a
