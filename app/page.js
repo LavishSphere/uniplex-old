@@ -56,7 +56,7 @@ export default function Home() {
           rel="noopener noreferrer"
         >
           <h2>
-            Mailing list <span>-&gt;</span>
+            Mailing List <span>-&gt;</span>
           </h2>
           <p>
             Join our maling list for the latest updates to our site.
