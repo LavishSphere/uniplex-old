@@ -1,20 +1,21 @@
 import React from 'react';
 import styles from './page.module.css';
 
-export default function Home() {
+const Page = () => {
   return (
     <main className={styles.main}>
       <div className={styles.description}>
-        <p>Welcome to Uniplex Incorporated!</p>
+        <h1 className={styles.heading}>Welcome to Uniplex Incorporated!</h1>
       </div>
 
-      {/* Ad iframe */}
       <div className={styles.adContainer}>
+        {/* Ad iframe */}
         <iframe
-          data-aa='2230219'
-          src='//acceptable.a-ads.com/2230219'
+          title="Advertisement"
+          data-aa="2230219"
+          src="//acceptable.a-ads.com/2230219"
           style={{
-            border: '0px',
+            border: '0',
             padding: '0',
             width: '100%',
             height: '100%',
@@ -25,54 +26,48 @@ export default function Home() {
       </div>
 
       <div className={styles.grid}>
-        <a
-          href='https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app'
-          className={styles.card}
-          target='_blank'
-          rel='noopener noreferrer'
-        >
-          <h2>
-            Wiki <span>-&gt;</span>
-          </h2>
-          <p>Find in-depth information about Uniplex features and guides.</p>
-        </a>
+        <Card
+          href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
+          title="Wiki"
+          description="Find in-depth information about Uniplex features and guides."
+        />
 
-        <a
-          href='https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app'
-          className={styles.card}
-          target='_blank'
-          rel='noopener noreferrer'
-        >
-          <h2>
-            Policy <span>-&gt;</span>
-          </h2>
-          <p>Check out our privacy policy for our website!</p>
-        </a>
+        <Card
+          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
+          title="Policy"
+          description="Check out our privacy policy for our website!"
+        />
 
-        <a
-          href='https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app'
-          className={styles.card}
-          target='_blank'
-          rel='noopener noreferrer'
-        >
-          <h2>
-            Terms <span>-&gt;</span>
-          </h2>
-          <p>Check our terms of service.</p>
-        </a>
+        <Card
+          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
+          title="Terms"
+          description="Check our terms of service."
+        />
 
-        <a
-          href='https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app'
-          className={styles.card}
-          target='_blank'
-          rel='noopener noreferrer'
-        >
-          <h2>
-            Mailing List <span>-&gt;</span>
-          </h2>
-          <p>Join our mailing list for the latest updates to our site.</p>
-        </a>
+        <Card
+          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
+          title="Mailing List"
+          description="Join our mailing list for the latest updates to our site."
+        />
       </div>
     </main>
   );
-}
+};
+
+const Card = ({ href, title, description }) => {
+  return (
+    <a
+      href={href}
+      className={styles.card}
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      <div className={styles.cardContent}>
+        <h2 className={styles.cardTitle}>{title} <span>&rarr;</span></h2>
+        <p className={styles.cardDescription}>{description}</p>
+      </div>
+    </a>
+  );
+};
+
+export default Page;
