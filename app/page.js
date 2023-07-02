@@ -5,7 +5,7 @@ const Page = () => {
   return (
     <main className={styles.main}>
       <div className={styles.logoContainer}>
-        <a href="https://uniplex.xyz" target="_blank" rel="noopener noreferrer">
+        <a href="https://uniplex.xyz">
           <img src="https://i.ibb.co/zSB2WpZ/logo.png" alt="Minecraft Logo" className={styles.logo} />
         </a>
         <h1 className={styles.logoText}>Uniplex</h1>
