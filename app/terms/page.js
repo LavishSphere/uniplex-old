@@ -5,7 +5,7 @@ const TermsPage = () => {
     <div>
       <h1>Terms and Conditions of Service for Uniplex Incorporated</h1>
       <p>Last updated: June 26, 2023</p>
-      <p>Welcome to Uniplex Incorporated (&quot;Uniplex,&quot; &quot;we,&quot; &quot;us,&quot; or &quot;our&quot;). These Terms and Conditions (the &quot;Terms&quot;) govern your access to and use of the website https://uniplex.xyz (the &quot;Website&quot;) and all related services provided by Uniplex, including but not limited to our Minecraft server services (collectively, the &quot;Services&quot;). Please read these Terms carefully before using our Website or accessing our Services.</p>
+      <p>Welcome to Uniplex Incorporated ("Uniplex," "we," "us," or "our"). These Terms and Conditions (the "Terms") govern your access to and use of the website https://uniplex.xyz (the "Website") and all related services provided by Uniplex, including but not limited to our Minecraft server services (collectively, the "Services"). Please read these Terms carefully before using our Website or accessing our Services.</p>
 
       <h2>1. Acceptance of Terms</h2>
       <p>By accessing the Website or using our Services, you agree to be bound by these Terms. If you do not agree with any part of these Terms, you must not use our Website or Services.</p>
@@ -23,7 +23,7 @@ const TermsPage = () => {
       <p>4.3. In the event of a payment dispute or chargeback, Uniplex reserves the right to suspend or terminate your access to our Services until the dispute is resolved.</p>
 
       <h2>5. Privacy</h2>
-      <p>Your privacy is important to us. Please review our Privacy Policy, available on the Website, to understand how we collect, use, and disclose information related to your use of our Services.</p>
+      <p>Your privacy is important to us. Please review our <a href="https://uniplex.xyz/privacy-policy" target="_blank" rel="noopener noreferrer">Privacy Policy</a> to understand how we collect, use, and disclose information related to your use of our Services.</p>
 
       <h2>6. Intellectual Property</h2>
       <p>6.1. All content, materials, and intellectual property rights on the Website and within our Services are owned by or licensed to Uniplex. You agree not to reproduce, distribute, modify, or create derivative works of any content or materials without our prior written consent.</p>
@@ -36,7 +36,7 @@ const TermsPage = () => {
       <p>8.1. Uniplex reserves the right to modify or update these Terms at any time without prior notice. Continued use of our Website or Services after any such changes shall constitute your consent to such changes.</p>
       <p>8.2. We may also terminate or suspend your access to our Services at any time without prior notice or liability, for any reason including, but not limited to, a violation of these Terms.</p>
 
-      <p>By using our Services, you acknowledge that you have read, understood, and agree to be bound by these Terms and Conditions. If you have any questions or concerns, please contact us at [email address].</p>
+      <p>By using our Services, you acknowledge that you have read, understood, and agree to be bound by these Terms and Conditions. If you have any questions or concerns, please contact us at <a href="mailto:website@uniplex.xyz">website@uniplex.xyz</a>.</p>
 
       <p>Uniplex Incorporated is located in California, United States, Los Angeles County.</p>
     </div>
