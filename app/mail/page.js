@@ -1,16 +1,18 @@
 import React from 'react';
 
 const RedirectPage = () => {
-  return null;
+  return (
+    <div>
+      Redirecting...
+      <script
+        dangerouslySetInnerHTML={{
+          __html: `
+            window.location.href = 'https://coldkigbjjv.typeform.com/to/Q26PaNkG';
+          `,
+        }}
+      />
+    </div>
+  );
 };
-
-export async function getServerSideProps() {
-  return {
-    redirect: {
-      destination: 'https://coldkigbjjv.typeform.com/to/Q26PaNkG',
-      permanent: false,
-    },
-  };
-}
 
 export default RedirectPage;
