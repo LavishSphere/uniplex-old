@@ -104,4 +104,9 @@ a {
   html {
     color-scheme: dark;
   }
+
+  body {
+    --background-start-color: #000000;
+    --background-end-color: #000000;
+  }
 }
