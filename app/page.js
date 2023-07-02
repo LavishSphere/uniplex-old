@@ -13,7 +13,7 @@ const Page = () => {
 
       <div className={styles.grid}>
         <Card
-          href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
+          href="wiki.uniplex.xyz"
           title="Wiki"
           description="Find in-depth information about Uniplex features and guides."
         />
@@ -25,13 +25,13 @@ const Page = () => {
         />
 
         <Card
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
+          href="/terms"
           title="Terms"
           description="Check our terms of service."
         />
 
         <Card
-          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
+          href="an"
           title="Mailing List"
           description="Join our mailing list for the latest updates to our site."
         />
