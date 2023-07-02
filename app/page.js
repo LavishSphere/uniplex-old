@@ -13,25 +13,25 @@ const Page = () => {
 
       <div className={styles.grid}>
         <Card
-          href="wiki.uniplex.xyz"
+          href="https://wiki.uniplex.xyz"
           title="Wiki"
           description="Find in-depth information about Uniplex features and guides."
         />
 
         <Card
-          href="/policy"
+          href="policy"
           title="Policy"
           description="Check out our privacy policy for our website!"
         />
 
         <Card
-          href="/terms"
+          href="terms"
           title="Terms"
           description="Check our terms of service."
         />
 
         <Card
-          href="an"
+          href="mail"
           title="Mailing List"
           description="Join our mailing list for the latest updates to our site."
         />
