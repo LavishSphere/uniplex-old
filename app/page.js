@@ -1,12 +1,11 @@
 import React from 'react';
 import styles from './page.module.css';
-import minecraftLogo from './logo.png';
 
 const Page = () => {
   return (
     <main className={styles.main}>
       <div className={styles.logoContainer}>
-        <img src={minecraftLogo} alt="Minecraft Logo" className={styles.logo} />
+        <img src="https://i.ibb.co/zSB2WpZ/logo.png" alt="Minecraft Logo" className={styles.logo} />
         <h1 className={styles.logoText}>Uniplex</h1>
       </div>
 
