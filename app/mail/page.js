@@ -1,20 +1,12 @@
 import React from 'react';
-import { useRouter } from 'next/router';
+import Link from 'next/link';
 
 const RedirectPage = () => {
-  const router = useRouter();
-
   React.useEffect(() => {
-    router.push('https://coldkigbjjv.typeform.com/to/Q26PaNkG');
+    window.location.href = 'https://coldkigbjjv.typeform.com/to/Q26PaNkG';
   }, []);
 
   return null;
-};
-
-export const getServerSideProps = () => {
-  return {
-    props: {},
-  };
 };
 
 export default RedirectPage;
