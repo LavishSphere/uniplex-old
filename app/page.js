@@ -1,66 +1,57 @@
 import React from 'react';
-import Head from 'next/head';
-import Link from 'next/link';
 import styles from './page.module.css';
+import minecraftLogo from './logo.png';
 
 const Page = () => {
   return (
-    <div className={styles.container}>
-      <Head>
-        <title>Uniplex - Minecraft Website</title>
-        <link rel="icon" href="https://i.ibb.co/zSB2WpZ/logo.png" />
-      </Head>
+    <main className={styles.main}>
+      <div className={styles.logoContainer}>
+        <img src={minecraftLogo} alt="Minecraft Logo" className={styles.logo} />
+        <h1 className={styles.logoText}>Uniplex</h1>
+      </div>
 
-      <header>
-        <h1>Uniplex</h1>
-      </header>
+      <div className={styles.grid}>
+        <Card
+          href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
+          title="Wiki"
+          description="Find in-depth information about Uniplex features and guides."
+        />
 
-      <nav>
-        <ul>
-          <li>
-            <Link href="https://discord.com/invite/discord-link">Discord</Link>
-          </li>
-          <li>
-            <Link href="https://www.reddit.com/r/uniplex">Reddit</Link>
-          </li>
-          <li>
-            <Link href="https://wiki.uniplex.xyz">Wiki</Link>
-          </li>
-          <li>
-            <Link href="/policy">Policy</Link>
-          </li>
-          <li>
-            <Link href="/terms">Terms and Conditions</Link>
-          </li>
-          <li>
-            <Link href="https://status.uniplex.xyz">Status</Link>
-          </li>
-        </ul>
-      </nav>
+        <Card
+          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
+          title="Policy"
+          description="Check out our privacy policy for our website!"
+        />
 
-      <main>
-        {/* Ad iframe */}
-        <div className={styles.adContainer}>
-          <iframe
-            title="Advertisement"
-            data-aa="2230219"
-            src="//acceptable.a-ads.com/2230219"
-            style={{
-              border: '0',
-              padding: '0',
-              width: '100%',
-              height: '100%',
-              overflow: 'hidden',
-              backgroundColor: 'transparent',
-            }}
-          ></iframe>
-        </div>
-      </main>
+        <Card
+          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
+          title="Terms"
+          description="Check our terms of service."
+        />
 
-      <footer>
-        <p>&copy; {new Date().getFullYear()} Uniplex</p>
-      </footer>
-    </div>
+        <Card
+          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
+          title="Mailing List"
+          description="Join our mailing list for the latest updates to our site."
+        />
+      </div>
+    </main>
+  );
+};
+
+const Card = ({ href, title, description }) => {
+  return (
+    <a
+      href={href}
+      className={styles.card}
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      <h2>
+        {title} <span>-&gt;</span>
+      </h2>
+      <p>{description}</p>
+    </a>
   );
 };
 
