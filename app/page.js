@@ -35,6 +35,18 @@ const Page = () => {
           title="Mailing List"
           description="Join our mailing list for the latest updates to our site."
         />
+
+        <Card
+          href="https://discord.gg/ZZB9j3Nbd7"
+          title="Discord"
+          description="Join our Discord server."
+        />
+
+        <Card
+          href="https://www.reddit.com/r/uniplex/"
+          title="Reddit"
+          description="Connect with us on Reddit."
+        />
       </div>
     </main>
   );
