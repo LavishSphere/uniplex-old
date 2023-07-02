@@ -6,7 +6,7 @@ const PrivacyPolicy = () => {
       <h1>Privacy Policy</h1>
 
       <p>
-        This Privacy Policy governs the manner in which Uniplex Incorporated ("Uniplex," "we," "us," or "our") collects, uses, maintains, and discloses information collected from users (each, a "User") of the https://uniplex.xyz website (the "Website") and all related services provided by Uniplex (collectively, the "Services"). This Privacy Policy applies to the Website and all products and services offered by Uniplex.
+        This Privacy Policy governs the manner in which Uniplex Incorporated (&quot;Uniplex,&quot; &quot;we,&quot; &quot;us,&quot; or &quot;our&quot;) collects, uses, maintains, and discloses information collected from users (each, a &quot;User&quot;) of the https://uniplex.xyz website (the &quot;Website&quot;) and all related services provided by Uniplex (collectively, the &quot;Services&quot;). This Privacy Policy applies to the Website and all products and services offered by Uniplex.
       </p>
 
       <hr />
@@ -22,7 +22,7 @@ const PrivacyPolicy = () => {
       <h2>How We Use Collected Information</h2>
 
       <p>
-        Uniplex may collect and use Users' personal information for the following purposes:
+        Uniplex may collect and use Users&apos; personal information for the following purposes:
       </p>
 
       <ul>
@@ -47,7 +47,7 @@ const PrivacyPolicy = () => {
       <h2>Sharing Your Personal Information</h2>
 
       <p>
-        We do not sell, trade, or rent Users' personal identification information to others. We may share generic aggregated demographic information not linked to any personal identification information regarding visitors and users with our business partners, trusted affiliates, and advertisers for the purposes outlined above.
+        We do not sell, trade, or rent Users&apos; personal identification information to others. We may share generic aggregated demographic information not linked to any personal identification information regarding visitors and users with our business partners, trusted affiliates, and advertisers for the purposes outlined above.
       </p>
 
       <hr />
@@ -71,7 +71,7 @@ const PrivacyPolicy = () => {
       <h2>Contacting Us</h2>
 
       <p>
-        If you have any questions about this Privacy Policy, the practices of this Website, or your dealings with this Website, please contact us at <a href="mailto:website@uniplex.xyz">website@uniplex.xyz</a>.
+        If you have any questions about this Privacy Policy, the practices of this Website, or your dealings with this Website, please contact us at <a href=&quot;mailto:website@uniplex.xyz&quot;>website@uniplex.xyz</a>.
       </p>
 
       <hr />
