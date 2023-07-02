@@ -36,8 +36,7 @@ const TermsPage = () => {
       React.createElement('p', null, '8.1. Uniplex reserves the right to modify or update these Terms at any time without prior notice. Continued use of our Website or Services after any such changes shall constitute your consent to such changes.'),
       React.createElement('p', null, '8.2. We may also terminate or suspend your access to our Services at any time without prior notice or liability, for any reason including, but not limited to, a violation of these Terms.'),
 
-      React.createElement('p', null, 'By using our Services, you acknowledge that you have read, understood, and agree to be bound by these Terms and Conditions. If you have any questions or concerns, please contact us at '),
-      React.createElement('a', { href: 'mailto:website@uniplex.xyz' }, 'website@uniplex.xyz'),
+      React.createElement('p', null, 'By using our Services, you acknowledge that you have read, understood, and agree to be bound by these Terms and Conditions. If you have any questions or concerns, please contact us at website@uniplex.xyz'),
       React.createElement('p', null, 'Uniplex Incorporated is located in California, United States, Los Angeles County.')
     )
   );
