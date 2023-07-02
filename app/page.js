@@ -13,8 +13,8 @@ const Page = () => {
 
       <div className={styles.grid}>
         <Card
-          href="https://wiki.uniplex.xyz"
-          title="Wiki"
+          href="https://blog.uniplex.xyz"
+          title="Blog"
           description="Find in-depth information about Uniplex features and guides."
         />
 
